@@ -1,0 +1,13 @@
+.place__title {
+  margin: 40px 40px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .place__title {
+    font-size: 26px;
+    /*font-weight: bold;*/
+    /*letter-spacing: .2px;*/
+    word-spacing: 2px;
+    margin: 50px 60px auto;
+  }
+}

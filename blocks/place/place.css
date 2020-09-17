@@ -1,0 +1,14 @@
+.place {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    flex-direction: row;
+  }
+
+  .place:nth-child(odd) .place__text-block {
+    order: 1;
+  }
+}
