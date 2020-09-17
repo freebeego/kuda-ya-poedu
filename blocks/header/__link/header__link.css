@@ -2,4 +2,7 @@
   text-decoration: none;
   color: black;
   display: block;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 12px;
 }
