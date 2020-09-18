@@ -4,6 +4,12 @@
   border-width: thin;
 }
 
+@media screen and (max-width: 768px) {
+  .header__list-item:first-of-type {
+    border-top-style: solid;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header__list-item {
     border: none;
