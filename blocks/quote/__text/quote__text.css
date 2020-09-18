@@ -1,4 +1,4 @@
 .quote__text {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 32px 0;
+  line-height: 1.6;
 }
