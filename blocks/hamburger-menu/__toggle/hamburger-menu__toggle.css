@@ -18,3 +18,7 @@
   display: flex;
   left: 0;
 }
+
+.hamburger-menu__toggle:checked ~ .hamburger-menu__btn::after {
+  transform: rotate(45deg);
+}
