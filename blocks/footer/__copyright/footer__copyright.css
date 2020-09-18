@@ -1,4 +1,6 @@
 .footer__copyright {
   margin: auto;
   text-align: center;
+  font-size: 3vw;
+  font-weight: bold;
 }
