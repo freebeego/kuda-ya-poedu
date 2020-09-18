@@ -1,11 +1,11 @@
 .place {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, auto);
 }
 
 @media screen and (min-width: 768px) {
   .place {
-    flex-direction: row;
+    grid-template: auto/repeat(2, 1fr);
   }
 
   .place:nth-child(odd) .place__text-block {
