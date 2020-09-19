@@ -3,7 +3,7 @@
   align-items: center;
   position: absolute;
   top: 20px;
-  right: 80px;
+  right: 20px;
   width: 26px;
   height: 26px;
   color: #fecda7;
@@ -11,14 +11,14 @@
   /*z-index: 1;*/
 }
 
-.hamburger-menu__btn::after {
+/*.hamburger-menu__btn::after {
   content: '+';
   position: absolute;
   top: -2px;
   right: -50px;
   font-size: 24px;
   transition-duration: .25s;
-}
+}*/
 
 @media screen and (min-width: 768px) {
   .hamburger-menu__btn {
