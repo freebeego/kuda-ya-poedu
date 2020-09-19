@@ -4,10 +4,20 @@
 
 @media screen and (min-width: 768px) {
   .quote {
-    width: calc((100vw - 160px) / 4);
+    width: calc(50% - 30px);
     margin-right: 60px;
   }
-  .quote:last-of-type {
+  .quote:nth-child(even) {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    width: calc(25% - 45px);
+    /*margin-right: 60px;*/
+  }
+  .quote:nth-child(2) {
+    margin-right: 60px;
   }
 }
