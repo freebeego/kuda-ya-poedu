@@ -7,5 +7,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   max-width: 1600px;
+  min-width: 320px;
   margin: 0 auto;
 }

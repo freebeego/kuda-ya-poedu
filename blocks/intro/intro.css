@@ -51,6 +51,7 @@
 
 @media screen and (min-width: 1024px) {
   .intro {
+    height: 40vw;
     max-height: 640px;
   }
 
