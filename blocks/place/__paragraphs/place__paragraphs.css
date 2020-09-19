@@ -1,0 +1,12 @@
+.place__paragraphs {
+  display: grid;
+  row-gap: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraphs {
+    align-self: center;
+    max-width: 458px;
+    gap: 1.5em;
+  }
+}
