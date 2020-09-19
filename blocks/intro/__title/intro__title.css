@@ -1,0 +1,22 @@
+.intro__title {
+  margin: 0;
+  padding-top: 11.15vw;
+  padding-left: 40px;
+  font-size: 1em;
+  word-spacing: 7px;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title {
+    padding-left: 85px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    color: #fecda7;
+  }
+}

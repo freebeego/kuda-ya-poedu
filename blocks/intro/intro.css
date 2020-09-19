@@ -1,34 +1,70 @@
 .intro {
-    display: grid;
-    grid-template: repeat(auto-fit, auto)/auto;
+  height: 100vw;
+  margin-top: 65px;
+  position: relative;
   }
-  
-  
-  
-  .intro__image {
-    background-image: url(../../images/intro-image.jpeg);
-    background-size: cover;
+
+.intro:before {
+  content: '';
+  background-image: url(../../images/intro-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.intro:after {
+  content: '';
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .intro{
+    height: 60vw;
+  }
+
+  .intro:before {
+    top: 0;
+    right: 40px;
+    bottom: 40px;
+    left: 40px;
+  }
+
+  .intro:after {
+    top: 0;
+    right: 40px;
+    bottom: 40px;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    max-height: 640px;
+  }
+
+  .intro:before {
     background-position: center;
-    background-repeat: no-repeat;
-    opacity: .2;
-    padding-top: 100%;
-    grid-row: 1/-1;
-    grid-column: 1/-1;
-    z-index: 1;
+    top: 5.9%;
+    /*right: 12.3%;*/
+    /*bottom: 25%;*/
+    left: 59.9%;
+    height: 27.6vw;
+    width: 27.5vw;
   }
-  
-  @media screen and (min-width: 447px) {
-    .intro {
-      overflow: hidden;
-      position: relative;
-    }
+
+  .intro:after {
+    display: none;
   }
-  
-  @media screen and (min-width: 1280px) {
-    .intro {
-      margin-left: 88px;
-      margin-right: 196px;
-      margin: 99px 196px 164px 88px;
-    }
-  }
-  
+}

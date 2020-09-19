@@ -1,16 +1,13 @@
 .intro__image {
-  background-image: url(../../../images/intro-image.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: .2;
+
+  /*opacity: .2;
   padding-top: 100%;
   grid-row: 1/-1;
   grid-column: 1/-1;
-  z-index: 1;
+  z-index: 1;*/
 }
 
-@media screen and (min-width: 447px) {
+/*@media screen and (min-width: 447px) {
     .intro__image {
     width: 447px;
     height: 447px;
@@ -28,4 +25,4 @@
     opacity: 1;
     transition: 1.3s;
   }
-}
+}*/

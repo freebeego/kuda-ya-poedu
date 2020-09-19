@@ -8,6 +8,6 @@
 @media screen and (min-width: 768px) {
   .place__image {
     width: 50%;
-    height: calc(50vw * 0.84);
+    height: calc(50vw * 0.84 - 10px);
   }
 }
