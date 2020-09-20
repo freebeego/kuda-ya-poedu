@@ -1,6 +1,6 @@
 .intro {
   height: 100vw;
-  margin-top: 65px;
+  margin-top: 60px;
   position: relative;
   }
 
@@ -20,7 +20,7 @@
 .intro:after {
   content: '';
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.2;
   position: absolute;
   top: 0;
   right: 0;
