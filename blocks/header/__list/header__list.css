@@ -2,13 +2,9 @@
   padding: 0;
   margin: 44px 0 0;
   list-style-type: none;
-  /*display: flex;*/
   flex-direction: column;
   text-align: center;
-
-  /*visibility: hidden;*/
   display: none;
-  /*transition-duration: .25s;*/
 }
 
 @media screen and (min-width: 768px) {

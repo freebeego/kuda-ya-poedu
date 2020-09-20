@@ -5,22 +5,18 @@
 .hamburger-menu__toggle:checked ~ .hamburger-menu__btn > .hamburger-menu__hamburger {
   transform: rotate(45deg);
 }
+
 .hamburger-menu__toggle:checked ~ .hamburger-menu__btn > .hamburger-menu__hamburger::before {
   top: 0;
   transform: rotate(0);
 }
+
 .hamburger-menu__toggle:checked ~ .hamburger-menu__btn > .hamburger-menu__hamburger::after {
   top: 0;
   transform: rotate(90deg);
 }
+
 .hamburger-menu__toggle:checked ~ .header__list {
-  /*visibility: visible;*/
   display: flex;
   left: 0;
 }
-
-/*
-.hamburger-menu__toggle:checked ~ .hamburger-menu__btn::after {
-  transform: rotate(45deg);
-}
-*/
