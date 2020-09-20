@@ -61,8 +61,6 @@
   .intro:before {
     background-position: center;
     top: 5.9%;
-    /*right: 12.3%;*/
-    /*bottom: 25%;*/
     left: 59.9%;
     height: 27.6vw;
     width: 27.5vw;
@@ -70,5 +68,12 @@
 
   .intro:after {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .intro:before {
+    max-width: 445px;
+    max-height: 445px;
   }
 }

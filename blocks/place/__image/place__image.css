@@ -9,3 +9,10 @@
     height: calc(50vw * 0.835);
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .place__image {
+    max-height: 670px;
+
+  }
+}
