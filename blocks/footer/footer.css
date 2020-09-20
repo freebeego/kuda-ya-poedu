@@ -3,3 +3,9 @@
   height: 48vw;
   display: flex;
 }
+
+@media screen and (min-width: 1600px) {
+  .footer {
+    max-height: 778px;
+  }
+}
