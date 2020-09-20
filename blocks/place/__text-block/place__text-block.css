@@ -1,12 +1,12 @@
 .place__text-block {
-  padding: 10% 10% 5%;
+  padding: 35px;
 }
 
 @media screen and (min-width: 768px) {
   .place__text-block {
     display: grid;
     grid-template-rows: minmax(min-content, 50%) minmax(50%, max-content);
-    padding: 5%;
+    padding: 35px;
   }
 }
 

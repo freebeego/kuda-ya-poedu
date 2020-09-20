@@ -1,8 +1,16 @@
 .place__image {
   width: 100%;
-  height: calc(50vw * 0.835);
+  height: 80vw;
   object-fit: cover;
 } /* можно оставить так, для уменьшения длины страницы на мобилке*/
+
+@media screen and (min-width: 768px) {
+  .place__image  {
+    height: calc(50vw * 0.835);
+  }
+}
+
+
 
 /*.place__image {
   width: 100%;
